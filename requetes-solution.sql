@@ -68,7 +68,7 @@ SELECT  ord_number,
 SELECT  ord_number, 
         ord_date
     FROM `order` 
-    ORDER BY ord_date ASC 
+    ORDER BY ord_date DESC 
     LIMIT 1;
     -- Même commentaire que celui laissé à A10
 
